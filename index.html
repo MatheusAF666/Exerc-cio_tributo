@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    
+        <form>
+            <fieldset class="form-control">
+                <legend><h1>Formulário</h1></legend>
+                <fieldset class="datosPersonales">
+                    <legend>Datos Personales</legend>
+                    <div class="datos-personales">
+                        <input type="text" name="Nombre" placeholder="Nombre" required>
+                        <input type="text" name="Apellidos" placeholder="Apelidos" required>
+                        <input type="email" name="correo-eletronico" placeholder="ejemplo@gmail.com" required>
+                        <input type="text" name="telefone" placeholder="+34123456789" maxlength="13">
+                        <input type="date" name="fecha-de-nacimiento" required>
+                    </div>
+                </fieldset>
+                <fieldset class="Localidad">
+                    <legend>Localidad</legend>
+                    <div class="local">
+                        <input type="text" name="pais" placeholder="pais" required>
+                        <input type="text" name="provincias" placeholder="provincia" required>
+                        <input type="text" name="ciudad" placeholder="ciudad" required>
+                    </div>
+                </fieldset>
+    
+                <fieldset class="Conocimiento">
+                    <div class="tecnologias">
+                        <b>HTML5</b>
+                        <input type="checkbox" name="html5">
+                        <b>CSS3</b>
+                        <input type="checkbox" name="CSS3">
+                        <b>JAVASCRIPT</b>
+                        <input type="checkbox" name="JAVASCRIPT">
+                        <b>PHP</b>
+                        <input type="checkbox" name="PHP">
+                        <b>Banco de datos</b>
+                        <input type="checkbox" name="Banco de datos">
+                    </div>
+                </fieldset>
+                <input type="submit" value="enviar" class="enviar">
+            </fieldset>
+
+            
+        </form>
+    
+</body>
+</html>
